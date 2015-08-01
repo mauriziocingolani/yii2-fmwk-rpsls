@@ -1,0 +1,24 @@
+{
+    "name": "mauriziocingolani/yii2-fmwk-rpsls",
+    "description": "Widget per giocare Rock Paper Scissors Lizard Spock nella tua applicazione Yii2",
+    "keywords": ["yii2", "framework", "php", "widget", "rock", "paper", "scissors", "lizard", "spock"],
+    "authors": [
+        {
+            "name": "Maurizio Cingolani",
+            "email": "mauriziocingolani74@gmail.com",
+            "homepage": "http://www.mauriziocingolani.it"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mauriziocingolani\\yii2fmwkrpsls\\": "/"
+        }
+    }
+}
