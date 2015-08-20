@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+mauriziocingolani\yii2fmwkrpsls\RpslsAsset::register($this);
+?>
 
 <div class="rpsls">
     <a href="" onclick="return false"><i class="fa fa-hand-rock-o" title="<?= Yii::t('rpsls', 'Rock'); ?>"></i></a>

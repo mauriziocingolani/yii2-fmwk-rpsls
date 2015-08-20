@@ -1,6 +1,6 @@
 {
     "name": "mauriziocingolani/yii2-fmwk-rpsls",
-    "description": "Widget per giocare Rock Paper Scissors Lizard Spock nella tua applicazione Yii2",
+    "description": "Widget to play Rock Paper Scissors Lizard Spock in your Yii2 powered application",
     "keywords": ["yii2", "framework", "php", "widget", "rock", "paper", "scissors", "lizard", "spock"],
     "authors": [
         {
