@@ -6,10 +6,15 @@ use yii\web\AssetBundle;
 
 class RpslsAsset extends AssetBundle {
 
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@vendor/mauriziocingolani/yii2-fmwk-rpsls/assets';
+    public $autogenerate = true;
     public $js = [
-        'js/rpsls.js',
+        'rpsls.js',
+    ];
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\jui\JuiAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 
 }
