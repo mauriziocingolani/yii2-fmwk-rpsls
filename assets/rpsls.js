@@ -1,3 +1,10 @@
+/* 
+ * Handles the user click on every rpsls icon.
+ * @author Maurizio Cingolani <mauriziocingolani74@gmail.com>
+ * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
+ * @version 1.0 
+ */
+
 (function ($) {
     $(function () {
         var types = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
@@ -13,6 +20,7 @@
             var type = $(this).attr('data-type');
             var myType = types.indexOf(type);
             var opponentType = Math.floor(Math.random() * 5);
+            var win = results[myType][opponentType];
             $('.rpsls-result i.my').removeClass().
                     addClass('my fa fa-hand-' + reverseTypes[myType] + '-o').
                     css('color', myType === opponentType ? 'black' : (win ? 'green' : 'red'));
@@ -23,7 +31,6 @@
                 $('.rpsls-result .result').css('color', 'black');
                 $('.rpsls-result .result').text('tie');
             } else {
-                var win = results[myType][opponentType];
                 $('.rpsls-result .result').css('color', win ? 'green' : 'red');
                 $('.rpsls-result .result').text(win ? 'win' : 'lose');
             }
