@@ -26,10 +26,10 @@
                 <h4 class="modal-title" id="rpsls-modal-label">Rock-Paper-Scissors-Lizard-Spock</h4>
             </div>
             <div class="modal-body">
-                Rock-Paper-Scissors-Lizard-Spock was created by internet pioneer 
-                <a href="https://en.wikipedia.org/wiki/Sam_Kass" target="blank">Sam Kass</a>
-                as an improvement on the classic game Rock-Paper-Scissors.
-                How does it work? Oh, it's very simple:
+                <p>Rock-Paper-Scissors-Lizard-Spock was created by internet pioneer 
+                    <a href="http://www.samkass.com/theories/RPSSL.html" target="blank">Sam Kass</a>
+                    as an improvement on the classic game Rock-Paper-Scissors.
+                    How does it work? Oh, it's very simple:</p>
                 <table style="text-align: center">
                     <tr><!-- Scissors vs Paper -->
                         <td><a href="" onclick="return false" title="Scissors"><i class="fa fa-hand-scissors-o win"></i></a></td>
@@ -92,7 +92,7 @@
                         <td />
                     </tr>
                 </table>
-                <p>
+                <p style="margin-top: 15px;">
                     You didn't get it, did you? Then <a href="https://www.youtube.com/watch?v=x5Q6-wMx-K8" target="blank">listen to it</a> over and over again.
                 </p>
             </div>
